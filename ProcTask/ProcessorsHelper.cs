@@ -14,6 +14,16 @@ namespace ProcTask
 
         public static int AddTasks(int[] inputArray, ProcessorsList processorsList, ref int[] outputArray)
         {
+            int count1 = 0;
+            int count2 = 0;
+
+            foreach (var cur in processorsList.GetProcessors())
+            {
+                if (cur.Type == 1) count1++;
+                if (cur.Type == 2) count2++;
+            }
+
+
             int minCount = 0;
             for (int i = 0; i < inputArray.Length; i++)
             {
@@ -35,10 +45,10 @@ namespace ProcTask
                         neededProc = k;
                     }
                 }
-
-                processorsList.GetProcessors()[neededProc].Tacts = inputArray[i];
+                minCount += countArray[neededProc];
+                processorsList.GetProcessors()[neededProc].Tacts = processorsList.GetProcessors()[neededProc].GetCountTaktForTask(inputArray[i]); ;
                 outputArray[i] = neededProc;
-                int a = 5;
+                
             }
             return minCount;
         }
