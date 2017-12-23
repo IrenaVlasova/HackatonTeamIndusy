@@ -1,0 +1,9 @@
+D:\intita\c#\ProcTask\ProcTask\bin\Debug\ProcTask.exe.config
+D:\intita\c#\ProcTask\ProcTask\bin\Debug\ProcTask.exe
+D:\intita\c#\ProcTask\ProcTask\bin\Debug\ProcTask.pdb
+D:\intita\c#\ProcTask\ProcTask\obj\Debug\ProcTask.csprojResolveAssemblyReference.cache
+D:\intita\c#\ProcTask\ProcTask\obj\Debug\ProcTask.csproj.CoreCompileInputs.cache
+D:\intita\c#\ProcTask\ProcTask\obj\Debug\ProcTask.exe
+D:\intita\c#\ProcTask\ProcTask\obj\Debug\ProcTask.pdb
+D:\intita\c#\ProcTask\ProcTask\bin\Debug\Newtonsoft.Json.dll
+D:\intita\c#\ProcTask\ProcTask\bin\Debug\Newtonsoft.Json.xml
